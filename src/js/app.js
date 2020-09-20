@@ -1,2 +1,4 @@
-// eslint-disable-next-line no-console
-console.log('it works!');
+import TaskTracker from './TaskTracker';
+
+const tracker = new TaskTracker(document.querySelector('.wrapper'));
+tracker.init();
